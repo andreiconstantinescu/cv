@@ -16,36 +16,14 @@ body {
   font-family: 'Source Sans Pro';
   font-weight: 300;
   font-size: 16px;
-  line-height: 1.5em;
 
   color: #22313F;
 }
 
 article {
-  padding: 3em 1em;
+  padding: 1em;
   max-width: 800px;
   margin: 0 auto;
-}
-
-@media (max-width: 700px) {
-  body {
-    font-size: 14px;
-  }
-}
-
-@media print {
-  body {
-    font-size: 14px;
-  }
-
-  article {
-    padding: 0 2em;
-  }
-
-  .hide-print {
-    display: none;
-  }
-
 }
 
 .personal {
@@ -78,7 +56,6 @@ h1, h2, h3 {
 
 h1 {
   font-size: 1.7em;
-  line-height: 2em;
   font-weight: 400;
 }
 
@@ -94,15 +71,12 @@ h3 a {
 
 h2 {
   font-size: 1.4em;
-  line-height: 1.25em;
-  height: 1.25em;
   border-bottom: 1px solid #2c3e50;
   font-weight: 400;
 }
 
 h3 {
   font-size: 1.0em;
-  line-height: 1.2em;
   font-weight: 400;
   padding-top: 0.2em;
 }
@@ -110,18 +84,12 @@ h3 {
 .entry {
   font-weight: 300;
   font-size: 1.1em;
-}
-
-.content {
-  padding: 0 1em
-}
-
-.experience {
-  margin-top: 1em
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
 }
 
 section, p {
-  margin: 1.5em 0;
+  margin: 1.3em 0;
 }
 
 article section:first-of-type,
@@ -136,9 +104,9 @@ article section:last-of-type p:last-of-type {
 }
 
 ul {
-  margin: 0;
-  padding: 0 1.3em;
-  list-style-type: none;
+  margin-left: 1em;
+  margin-top: 0;
+  padding: 0;
   text-align: justify
 }
 
@@ -165,13 +133,47 @@ ul {
   top: 0;
   text-align: right;
 }
+.name {
+  text-align: center;
+}
+@media print {
+  body {
+    font-size: 13px;
+  }
 
-@media (max-width: 700px) {
-  .columns div:nth-child(1),
-  .columns div:nth-child(2),
-  .columns div:nth-child(3) {
+  article {
+    padding: 1em;
+  }
+
+  section, p {
+    margin: 0.5em 0;
+  }
+
+  hr {
+    margin-top: 0.5em;
+  }
+
+  .hide-print {
+    display: none;
+  }
+
+  /* CSS is a true darling. */
+  .columns div:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .columns div:nth-child(2) {
     width: 100%;
-    position: static;
-    text-align: left;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .columns div:nth-child(3) {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: right;
   }
 }

@@ -8,200 +8,90 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,600' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,600' rel='stylesheet' type='text/css'>
   <!-- Basehold.it vertical rhythm helper. -->
-  <!-- <link rel="stylesheet" href="http://basehold.it/24"> -->
+  <!-- <link rel="stylesheet" href="//basehold.it/24"> -->
 </head>
 
 <body>
   <article>
     <section>
-      <div class="columns">
-        <div class="personal">
-          <i class="fa fa-home"></i>
-          Caminului 30 Bl D3 Ap 32
-          <br>
-          Bucharest 021745
-        </div>
-
-        <div>
+      <div class='name'>
           <h1 class="inline">
             Andrei Constantinescu
           </h1>
         </div>
-
-        <div class="personal">
-          <i class="fa fa-phone"></i>
-          <a href="callto:+40724658500">
-             +40 (724) 65 85 00
-          </a>
-          <br>
-          <i class="fa fa-envelope"></i>
-          <a href='mailto:andrei@constantinescu.io'>
-             andrei@constantinescu.io
-          </a>
-        </div>
-
+      </div>
       </section>
 
       <section>
         <h2>
           Employment
         </h2>
+        <div class="experience">
+          <div class="columns entry">
+            <div>
+              Web Developer
+            </div>
+            <div>
+              Kano Computing Ltd.
+            </div>
+
+            <div>
+              July 2015 - Current
+            </div>
+          </div>
+          <ul>
+            <li>
+              Developed the <a href = '//world.kano.me'>Kano World</a> <b>Onboading Flow</b> for new users. On the front-end I used <a href = 'ß//vuejs.org/'>Vue.js</a>, <a href = '//jade-lang.com/'>Jade</a>, <a href = '//stylus-lang.com/'>Stylus</a> and on the Backend I made use of <a href = '//www.mongodb.org/'>MongoDb</a> and <a href = '//nodejs.org'>NodeJS</a>.
+            </li>
+            <li>
+              Recreated the <b>Registration Flow</b> with <a href = '//x-tag.github.io/'>x-Tag</a> and add it to the Kano World SDK to be used throught out apps.
+            </li>
+            <li>
+              Created <b>Amazon-like SLAs</b> for displaying relevant product information for users reagarding delivery times considering timezones differences and business days with the help of <a href = '//momentjs.com'>moment.js</a>, <a href = '//expressjs.com'>express.js</a>, ES6.
+            </li>
+            <li>
+              Created the <b>Admin tool</b> for the SLA server using <a href = '//reactjs.com'>react.js</a>,<a href = '//github.com/rackt/react-router'>React-router</a>, <a href = '//webpack.github.io'>webpack</a>, es6, <a href = '//babel.io'>Babel</a>.
+            </li>
+            <li>
+              Developed countless <b>features and improvements</b> for <a href = '//kano.me'>kano.me</a> using <a href = '//shopify.com'>Shopify</a> tools.
+            </li>
+          </ul>
+        </div>
+
         <div class="columns entry">
           <div>
             Front-end Developer
           </div>
           <div>
-            Learn Forward Ltd
+            Learn Forward Ltd (formely Read Forward)
           </div>
 
           <div>
-            January 2015 - May 2015
+            April 2014 - May 2015
           </div>
         </div>
-        <div class="content">
-          <div class="experience">
-            <h3>
-              Digital Textbooks.
-            </h3>
-            <ul>
-              <li>
-                Created various jade/stylus mixins and tweaked existing exercise prototypes for the digital versions of a well known Romanian Publisher's Textbooks in order to make learning a joy for school children.
-              </li>
-            </ul>
-          </div>
-          <div class="experience">
-            <h3>
-              Report:
-              <a href="http://freedom-house.lfwd.io/">
-                http://freedom-house.lfwd.io/
-              </a>
-            </h3>
-            <ul>
-              <li>
-                Online version of Freedom House's Fighting Public Procurement Criminality Report built with LFA and custom js/jade/stylus mixins.
-              </li>
-            </ul>
-          </div>
-          <div class="experience">
-            <h3>
-              Report:
-              <a href="http://net-children.mediawise.ro/">
-                http://net-children.mediawise.ro/
-              </a>
-            </h3>
-            <ul>
-              <li>
-                Online version of the Net Chuildren Go Mobile Report built with LFA and custom js/jade/stylus mixins.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="columns entry" style='border-top: 1px solid black; margin-top: 1em'>
-          <div>
-            Junior Software Engineer
-          </div>
-          <div>
-            Read Forward LLC
-          </div>
-
-          <div>
-            April 2014 - December 2014
-          </div>
-        </div>
-        <div class="content">
-          <div class="experience">
-
-            <h3>
-              Static Website:
-              <a href="http://learnfwd.com">
-                http://learnfwd.com
-              </a>
-            </h3>
-            <ul>
-              <li>
-                LearnFwd is a authoring tool for creating context-aware digital textbooks. This a static website that was made with a custom stack based on Node.js with Gulp, Browserify, Jade, Stylus, Backbone Views, Bower and deployed on Heroku.
-              </li>
-            </ul>
-          </div>
-          <div class="experience">
-
-            <h3>
-              Static Website:
-              <a href="http://macoveipresedinte.ro">
-                http://macoveipresedinte.ro
-              </a>
-            </h3>
-            <ul>
-              <li>
-                Monica Macovei's presidential elections website is a static website built with the help of a workflow based on Node.js with Gulp, for streaming the build process, Browserify, for bundling all the .js files into a single file that is served to the client, Jade and Stylus preprocessors and other technologies that include Mocha testing framework, IstanbulJS, BackboneJS, Bower, Browser-sync and Heroku.
-              </li>
-            </ul>
-          </div>
-
-          <div class="experience">
-            <h3>
-              Digital Textbooks:
-              <a href="http://readfwd.com/hr2/"> http://readfwd.com/hr2/</a>
-            </h3>
-            <ul>
-              <li>
-                I created digital versions of textbooks writen in Jade and Stylus with interactive exercises, written in JavaScript, that stimulate creativity and make studying a fun and engaging experience for first graders. The textbooks are generated with an internal tool formatted as HTML5 content.
-              </li>
-            </ul>
-          </div>
-        </div>
+        <ul>
+          <li>
+            Created various textbooks with interactive exercise for grades 1 - 4 with our <b>open-soourced authoring tool</b>, <a href = '//www.npmjs.com/package/lfa'> Learn Forward Author </a> and the help of <a href = '//jade-lang.com/'>Jade</a>, <a href = '//stylus-lang.com/'>Stylus</a>. A romanian language for the 2nd grade can be found <a href = '//readfwd.com/hr2/'>here</a>.
+          </li>
+          <li>
+            Online version of Freedom House's <a href = '//freedom-house.lfwd.io/'>Fighting Public Procurement Criminality Report</a> built with <a href = '//www.npmjs.com/package/lfa'> Learn Forward Author </a> and custom <a href = '//jade-lang.com/'>Jade</a>, <a href = '//stylus-lang.com/'>Stylus</a> mixins and LFA collaboration functionalities.
+          </li>
+          <li>
+            Online version of <a href='//net-children.mediawise.ro/'>Net Children Go Mobile Report</a> built with <a href = '//www.npmjs.com/package/lfa'> Learn Forward Author </a> and custom <a href = '//jade-lang.com/'>Jade</a>, <a href = '//stylus-lang.com/'>Stylus</a> mixins and LFA collaboration functionalities.
+          </li>
+          <li>
+            Created and maintained Monica Macovei's <b>open source</b> presidencial elections website with <a href = '//nodejs.org'>NodeJS</a>, <a href = '//backbonejs.org/'>BackboneJS</a>, bundled with <a href = '//browserify.org/'>Browserify</a>, built with <a href = '//gulpjs.com/'>GulpJS</a> having <a href = 'https://www.browsersync.io/'>Brower-Sync</a> for development, tested with <a href = '//mochajs.org'>Mocha</a> covered with <a href = 'https://gotwarlost.github.io/istanbul'>IstanbulJS</a> and deployed on <a href = '//heroku.com'>Heroku</a>.
+          </li>
+          <li>
+            Created the company website with a stack consisting of <a href = '//nodejs.org'>NodeJS</a>, <a href = '//backbonejs.org/'>BackboneJS</a>, bundled with <a href = '//browserify.org/'>Browserify</a>, built with <a href = '//gulpjs.com/'>GulpJS</a> having <a href = 'https://www.browsersync.io/'>Brower-Sync</a> for development and deployed on <a href = '//heroku.com'>Heroku</a>.
+          </li>
+        </ul>
       </section>
 
-      <section>
-        <h2>
-          Volunteer Work
-        </h2>
-        <div class="columns entry">
-          <div>
-            Member
-          </div>
 
-          <div>
-            ASMI (
-            <a href="http://www.as-mi.ro">
-              http://www.as-mi.ro
-            </a>
-            )
-          </div>
-          <div>
-            Oct 2012 - Present
-          </div>
-        </div>
-
-        <div class="content">
-          <div class="experience">
-            <h3>
-              ASMI - Department of Public Relations
-            </h3>
-
-            <ul>
-              <li>
-                2014 - I created the 2014's Freshmen's Prom website. I used a GULP and BackboneJS stack that include Browserify and Jade/Stylus preprocessors Heroku for deployment.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="content">
-          <div class="experience">
-            <h3>
-              ASMI - Department of Studies
-            </h3>
-
-            <ul>
-              <li>
-                2013 - I managed the "Caravana Educationala" project. This project is about promoting my faculty to high school students in Bucharest and Romania. I was in charge with the presentations that were held in Bucharest. I was also involved in various associations' projects throughout this academic year.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
 
       <section>
         <h2>
@@ -220,84 +110,22 @@
           <div>
             Oct 2012 - Present
           </div>
-
-        </div>
-        <div class="experience content">
-          <h3>
-            Bachelors in Computer Science.
-          </h3>
-        </div>
+          <ul>
+            <li>Bachelors Degree in Computer Science.</li>
+          </ul>
       </section>
 
       <section>
         <h2>
-          Technical Experience
+          Side Projects
         </h2>
       </div>
-      <div class="experience content">
-        <h3>
-          MovieScribe (2015)
-        </h3>
-        <ul>
-          <li>
-            A basic Movie Recommendation System that me and my team have built for a college lab. Me and one teammate chose a stack for the frontend that consisted of Node, AngularJS, Redis, Gulp, Bower and Stylus while the remaining 2 teammates chose a backend that consisted of a Java server and other plugins.
-          </li>
-        </ul>
-      </div>
-      <div class="experience content">
-        <h3>
-          Issue-Tracker (2015 - work in progress)
-        </h3>
-        <ul>
-          <li>
-            Currently working on building an issue tracker, as a college project, with Meteor and Compose.io. It is meant to be a tool for college students that offers a dashboard with an accurate level of completeness of their projects/team projects.
-          </li>
-        </ul>
-      </div>
-      <div class="experience content">
-        <h3>
-          iOS App (2015)
-        </h3>
-        <ul>
-          <li>
-            Me and a colleague developed a native iOS App for the iOS Lab that helped people to know if there are near any of their friends and have the posibility to voluntarily notify them of their presence and extablish a meetup point. Because of the App's intended minimal interaction, it was meant to be used on Apple Watch, but can be used on the iphone without any drawbacks. For developing we used a stack that included: Parse, Twitter's Digits, Google Maps.
-          </li>
-        </ul>
-      </div>
-      <div class="experience content">
-        <h3>
-          Note taking App (2014 - work in progress - <a href="http://clearapp.herokuapp.com/") target="_blank">http://clearapp.herokuapp.com/</a>)
-        </h3>
-        <ul>
-          <li>
-            A simple note taking app developed with a custom stack: Gulp, Browserify, Stylus, Jade, BackboneJS and Bower. On my todo list is moving the storage in the cloud (Redis or Parse), adding visual effects with VelocityJS and implement a login system so that a user can store their notes for further usage.
-          </li>
-        </ul>
-      </div>
-      <div class="experience content">
-        <h3>
-          Learning Platform (2014)
-        </h3>
-        <ul>
-
-          <li>
-            My first encounter with AngularJS was developing this project as part of the university course Software Development Methodologies. I learned the basic concepts of a MEAN.js application (MongoDB, ExpressJS, AngularJS, Node). The application let 12th graders to sign up and gain access to preparatory exercises and tests in support for the Baccalaureate Exam.
-          </li>
-        </ul>
-      </div>
-
-      <div class="experience content">
-
-        <h3>
-          Twitter-Like Web App
-          (2014 - <a href="https://twitter-likeapp.herokuapp.com" target="_blank">https://twitter-likeapp.herokuapp.com</a>)
-        </h3>
-        <ul>
-          <li>
-            A Twitter clone web app I wrote in Ruby on Rails by following Michael Hartl's Rails book, with a few twists along the way. An excellent intro into Agile principles, Test Driven Development, version control with Git and rapid front-end development with Twitter Bootstrap.
-          </li>
-        </ul>
-      </div>
+      <ul>
+        <li>Codeveloped a <a href ='devpost.com/software/meteor-hackathon'>Spotify clone</a> during the Meteor Hackathon in 2015 with a stack consisting of <b>ES6</b>, <a href = '//meteor.com'>Meteor</a>, <a href = '//reactjs.com'>react.js</a>, <a href = '//webpack.github.io'>webpack</a>, es6, <a href = '//babel.io'>Babel</a>
+        <li>The frontend of a <b>Movie Recommendation System</b> with the chosen stack of <a href = '//nodejs.org'>NodeJS</a>, <a href = '//angularjs.org'>AngularJS</a>, <a href = '//redis.io'>Redis</a>, <a href = '//bower.io'>Bower</a>, <a href = '//stylus-lang.com/'>Stylus</a> and deployed to my server through custom <b>git hooks</b> <span style = 'vertical-align: middle'>😅</span>.</li>
+        <li>Fully developed a native <b>iOS App</b> with <b>Objective-C</b> incorporating different services like <a href = '//parse.com'>Parse</a> (now, being discontinued), authentication with Twitter's <a href = '//get.digits.com'>Digits</a> and <a href = '//developers.google.com/maps'>Google Maps API</a> from which you could find friends that are nearby and set a rally point.</li>
+        <li>A <b>Twitter Clone</b> built with <a href = '//rubyonrails.org/'>Ruby On Rails</a> while I was learning the basics of <b>Git</b>, <b>TDD</b> and <b>Agile Development</b>.
+      </ul>
 
     </section>
 
@@ -305,116 +133,39 @@
       <h2>
         Trainings, Hackathons, Prizes
       </h2>
+      <ul>
 
-      <div class="content experience">
-        <h3 class="inline">
-          TOEFL iBT:
-        </h3>
+
+      <li>
+        <b>TOEFL iBT:</b>
         <a href='pdf/TOEFL2012.pdf'>
           Score 85/120
         </a>.
-      </div>
-
-      <div class="content experience">
-        <h3 class="inline">
-          Fundamentals of Java Programming (2009):
-        </h3>
-        <a href="http://www.lec-academy.ro">
-          Line Education Center
-        </a>.
-      </div>
-
-      <div class="content experience">
-        <h3 class="inline">
-          Attended local hackathons:
-        </h3>
-        <span>
-          WOWZAPP 2012, FMI NoStress 3, FirefoxOS 2013, IBM Challenge 2014, Innovation Labs 2015.
-        </span>
-      </div>
-
-      <div class="content experience">
-        <h3 class="inline">
-          CodeSchool courses:
-        </h3>
-        <a href="https://codeschool.com/users/397971">Report card</a>.
-      </div>
-
-      <div class="content experience">
-        <h3 class="inline">
+      </li>
+      <li><b>Attended local hackathons: </b>FirefoxOS 2013, IBM Challenge 2014, Innovation Labs 2015.</li>
+      <li>
+        <b>
           Prizes:
-        </h3>
-        <div class="content">
-          <div class="prize">
-
-          <strong>
-            Omnifee:
-            </strong>
-            <a href="http://imsmart.ro">
-              ImSmart
-            </a>
-            <span>
-              2014 - 1st prize
-            </span>
-          </div>
-          <div class="prize">
-            <strong>
-              Hackathon:
-            </strong>
-            <a href="http://ibm.ro">IBM Challenge</a>
+        </b>
+              Omnifee:<a href="//imsmart.ro">ImSmart</a><span>2014 - 1st prize</span>, Hackathon:
+            <a href="//ibm.ro">IBM Challenge</a>
             <span>2014 - 3rd prize</span>
-          </div>
-        </div>
-      </div>
+      </li>
+    </ul>
     </section>
 
     <section>
       <h2>
         Languages and Technologies
       </h2>
-
-      <div class="content experience">
-        <h3>
-          Languages:
-        </h3>
-
+      <ul>
+        <li><b>Languages, Frameworks and Libraries:</b></li>
         <ul>
-          <li>
-            Good knowledge of JavaScript, HTML, CSS, Jade, Stylus.
-          </li>
-
-          <li>
-            Working knowlegde of Ruby, C, C++, Java.
-          </li>
-        </ul>
-      </div>
-      <div class="content experience">
-        <h3>
-          Frameworks and Libraries:
-        </h3>
-        <ul>
-          <li>
-            Good knowledge of jQuery, Backbone, Underscore, Bootstrap.
-          </li>
-
-          <li>
-            Working knowledge of Node, Rails, Angular, Gulp, Meteor, React.
-          </li>
-        </ul>
-      </div>
-
-      <div class="content experience">
-        <h3>
-          Tools and Services:
-        </h3>
-
-        <ul>
-          <li>
-            UNIX, zsh, Jira, Heroku, AWS, Brew, git.
-          </li>
+          <li>Advanced knowledge of JavaScript, HTML, CSS, Jade, Stylus.</li>
+          <li>Good knowledge of jQuery, Backbone, Underscore/Lodash, React, Redux</li>
+          <li>Working knowlegde of Ruby, C, C++, Java.</li>
         </ul>
       </ul>
-    </div>
   </section>
 
   <section>
@@ -429,15 +180,15 @@
           Hacker News
         </a>
         ,
-        <a href="http://sidebar.io", target="_blank">
+        <a href="//sidebar.io", target="_blank">
           Sidebar.io
         </a>
         and
-        <a href="http://producthunt.com", target="_blank">
+        <a href="//producthunt.com", target="_blank">
           Product Hunt
         </a>
         and by reading different books on
-        <a href="http://gitbook.io", target="_blank">
+        <a href="//gitbook.io", target="_blank">
           Gitbook.io
         </a>
         . I also attend local technology conferences and help people with their programming projects. In my free time I also add more features my RaspberryPi home media center.
