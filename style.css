@@ -193,6 +193,14 @@ ul {
   }
 }
 
-.section, h2 {
+.section {
   border-bottom: 1px solid black
+}
+
+.name > h2, h5 {
+  font-weight: 300;
+}
+
+.name > h5 {
+  margin-top: 0;
 }
