@@ -158,29 +158,9 @@ ul {
   .hide-print {
     display: none;
   }
-
-  /* CSS is a true darling. */
-  .columns div:nth-child(1) {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-
-  .columns div:nth-child(2) {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .columns div:nth-child(3) {
-    position: absolute;
-    right: 0;
-    top: 0;
-    text-align: right;
-  }
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   body {
     font-size: 14px;
   }
