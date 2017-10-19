@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>
@@ -22,7 +23,9 @@
         <h1>
           Andrei Constantinescu
         </h1>
-        <h5><a href="mailto:andrei@constantinescu.io">andrei@constantinescu.io</a> · <a href='callto:00447482009085'>0044 7482 009 085</a> · London, UK</h5>
+        <h5>
+          <a href="mailto:andrei@constantinescu.io">andrei@constantinescu.io</a> ·
+          <a href='callto:00447482009085'>0044 7482 009 085</a> · London, UK</h5>
       </div>
     </section>
 
@@ -30,6 +33,44 @@
       <h2 class='section'>
         Employment
       </h2>
+      <div class="experience">
+        <div class="columns entry">
+          <div>
+            Full Stack Software Engineer
+          </div>
+          <div>
+            Third Space Learning Ltd - London
+          </div>
+
+          <div>
+            Aug 2017 - Oct 2017
+          </div>
+        </div>
+        <ul>
+          <li>
+            Architected and implemented the frontend of an online library for teacher to provide maths resources for pupils - Year 1
+            through Year 6 called Mathshub. It delivers different types of resources, from documents to video trainings,
+            along with a daily challenge for pupils to solve in the classroom. The content is available to useres on a tier
+            based system. The stack was composed of Reactjs, Redux, Apollo, styled-jsx, tachyons and nextjs.
+          </li>
+          <li>
+            Architected and implemented the backend (API + SQL database) of Mathshub which comprised of a Graphql Server with custom
+            made Types, queries and mutations in order to deliver the information in a secure format (eg url signing based
+            on the user tier). The Graphql endpoint communicates with a SQL database service from AWS, RDS - which is postgres
+            underneath. The stack was composed of Nodejs, Express js, GraphQL, AWS services - S3, RDS.
+          </li>
+          <li>
+            I created the database schema and connections between tables for gathering resources. Different materialized views for individual
+            pages were created so that gathering information from the DB and displaying it on the frontend is fast and without
+            involving any costly joins between tables.
+          </li>
+          <li>
+            Architected and implemented an initial version of a custom CMS for updating the Mathshub Database and make use of the graphql
+            mutation in a safe environment while making offering basic CRUD mutations. The stack used was mainly the same
+            as the Mathshub app, which is ReactJs, NextJs, Apollo, Redux, styled jsx and tachyons.
+          </li>
+        </ul>
+      </div>
       <div class="experience">
         <div class="columns entry">
           <div>
@@ -45,19 +86,26 @@
         </div>
         <ul>
           <li>
-            Architected and implemented an internal tool for validating various entries in a neo4j graph-based db. Frontend stack: React, webpack, redux, tachyons.
+            Architected and implemented an internal tool for validating various entries in a neo4j graph-based db. Frontend stack: React,
+            webpack, redux, tachyons.
           </li>
           <li>
-            Opensourced the boilerplate created for the validation tool, now being used as a kitchen sync for trying new tech, <a href='//github.com/andreiconstantinescu/project-viper'>Project Viper</a>.
+            Opensourced the boilerplate created for the validation tool, now being used as a kitchen sync for trying new tech,
+            <a href='//github.com/andreiconstantinescu/project-viper'>Project Viper</a>.
           </li>
           <li>
-            Created internal wordpress blog, also created a safe docker based environment for this project and opensourced the docker based environment I created, <a href='//github.com/andreiconstantinescu/wordpress-jail-cell'>Wordpress Jail Cell</a>.
+            Created internal wordpress blog, also created a safe docker based environment for this project and opensourced the docker
+            based environment I created,
+            <a href='//github.com/andreiconstantinescu/wordpress-jail-cell'>Wordpress Jail Cell</a>.
           </li>
           <li>
-            Architected and implemented a prototype of a social listening tool. Backend stack: nodejs, mongodb. Frontend stack: react, webpack2, redux, redux-saga, tachyons, aws rds, google services apis.
+            Architected and implemented a prototype of a social listening tool. Backend stack: nodejs, mongodb. Frontend stack: react,
+            webpack2, redux, redux-saga, tachyons, aws rds, google services apis.
           </li>
           <li>
-            Architected and implemented the first version of an internal social listening tool from scratch. It used different endpoint and services for gathering data and analysing it. Backend in nodejs, potgresql database, graphql, google services apis. Frontend in react, relay, tachyons, style jsx, webpack2.
+            Architected and implemented the first version of an internal social listening tool from scratch. It used different endpoint
+            and services for gathering data and analysing it. Backend in nodejs, potgresql database, graphql, google services
+            apis. Frontend in react, relay, tachyons, style jsx, webpack2.
           </li>
           <li>
             Contributed to internal reactjs based projects.
@@ -79,31 +127,59 @@
         </div>
         <ul>
           <li>
-            Architected and developed the first stage of a <b>unified sharing flow</b> (between the OS and webapps) with QTWebEngine, QTWebChannel, <a href = '//x-tag.github.io/'>x-Tag</a>, CSS and es6.
+            Architected and developed the first stage of a
+            <b>unified sharing flow</b> (between the OS and webapps) with QTWebEngine, QTWebChannel,
+            <a href='//x-tag.github.io/'>x-Tag</a>, CSS and es6.
           </li>
           <li>
-            Architected and implemented from scratch the <a href="//kano.me">kano.me</a> website with a stack based on vuejs, vuex, webpack, es6 and the shopify api.
+            Architected and implemented from scratch the
+            <a href="//kano.me">kano.me</a> website with a stack based on vuejs, vuex, webpack, es6 and the shopify api.
           </li>
           <li>
-            Developed from scratch various parts, including the <b>unified navigation part</b> for <a href="//apps.kano.me">Make Apps</a> in <a href="//polymer-project.org">Polymer</a>, ES6, Babel, Gulp.
+            Developed from scratch various parts, including the
+            <b>unified navigation part</b> for
+            <a href="//apps.kano.me">Make Apps</a> in
+            <a href="//polymer-project.org">Polymer</a>, ES6, Babel, Gulp.
           </li>
           <li>
-            Implemented various features on the <a href="//art.kano.me">Make Art</a>, that is based on Angular, Jade, Stylus and Gulp.
+            Implemented various features on the
+            <a href="//art.kano.me">Make Art</a>, that is based on Angular, Jade, Stylus and Gulp.
           </li>
           <li>
-            Developed the <a href = '//world.kano.me'>Kano World</a> <b>Onboarding Flow</b> for new users. On the front-end I used <a href = 'ß//vuejs.org/'>Vue.js</a>, <a href = '//jade-lang.com/'>Jade</a>, <a href = '//stylus-lang.com/'>Stylus</a> and on the Backend I made use of <a href = '//www.mongodb.org/'>MongoDb</a> and <a href = '//nodejs.org'>NodeJS</a>.
+            Developed the
+            <a href='//world.kano.me'>Kano World</a>
+            <b>Onboarding Flow</b> for new users. On the front-end I used
+            <a href='ß//vuejs.org/'>Vue.js</a>,
+            <a href='//jade-lang.com/'>Jade</a>,
+            <a href='//stylus-lang.com/'>Stylus</a> and on the Backend I made use of
+            <a href='//www.mongodb.org/'>MongoDb</a> and
+            <a href='//nodejs.org'>NodeJS</a>.
           </li>
           <li>
-            Recreated the <b>Registration Flow</b> with <a href = '//x-tag.github.io/'>x-Tag</a> and add it to the Kano World SDK to be used throught out apps.
+            Recreated the
+            <b>Registration Flow</b> with
+            <a href='//x-tag.github.io/'>x-Tag</a> and add it to the Kano World SDK to be used throught out apps.
           </li>
           <li>
-            Created <b>Amazon-like SLAs</b> for displaying relevant product information for users reagarding delivery times considering timezones differences and business days with the help of <a href = '//momentjs.com'>moment.js</a>, <a href = '//expressjs.com'>express.js</a>, ES6.
+            Created
+            <b>Amazon-like SLAs</b> for displaying relevant product information for users reagarding delivery times considering
+            timezones differences and business days with the help of
+            <a href='//momentjs.com'>moment.js</a>,
+            <a href='//expressjs.com'>express.js</a>, ES6.
           </li>
           <li>
-            Created the <b>Admin tool</b> for the SLA server using <a href = '//reactjs.com'>react.js</a>,<a href = '//github.com/rackt/react-router'>React-router</a>, <a href = '//webpack.github.io'>webpack</a>, es6, <a href = '//babel.io'>Babel</a>.
+            Created the
+            <b>Admin tool</b> for the SLA server using
+            <a href='//reactjs.com'>react.js</a>,
+            <a href='//github.com/rackt/react-router'>React-router</a>,
+            <a href='//webpack.github.io'>webpack</a>, es6,
+            <a href='//babel.io'>Babel</a>.
           </li>
           <li>
-            Developed countless <b>features and improvements</b> for <a href = '//kano.me'>kano.me</a> using <a href = '//shopify.com'>Shopify</a> tools.
+            Developed countless
+            <b>features and improvements</b> for
+            <a href='//kano.me'>kano.me</a> using
+            <a href='//shopify.com'>Shopify</a> tools.
           </li>
         </ul>
       </div>
@@ -122,59 +198,112 @@
       </div>
       <ul>
         <li>
-          Created various textbooks with interactive exercise for grades 1 - 4 with our <b>open-sourced authoring tool</b>, <a href = '//www.npmjs.com/package/lfa'> Learn Forward Author </a> and the help of <a href = '//jade-lang.com/'>Jade</a>, <a href = '//stylus-lang.com/'>Stylus</a>. A romanian language for the 2nd grade can be found <a href = '//readfwd.com/hr2/'>here</a>.
+          Created various textbooks with interactive exercise for grades 1 - 4 with our
+          <b>open-sourced authoring tool</b>,
+          <a href='//www.npmjs.com/package/lfa'> Learn Forward Author </a> and the help of
+          <a href='//jade-lang.com/'>Jade</a>,
+          <a href='//stylus-lang.com/'>Stylus</a>. A romanian language for the 2nd grade can be found
+          <a href='//readfwd.com/hr2/'>here</a>.
         </li>
         <li>
-          Online version of Freedom House's <a href = '//freedom-house.lfwd.io/'>Fighting Public Procurement Criminality Report</a> built with <a href = '//www.npmjs.com/package/lfa'> Learn Forward Author </a> and custom <a href = '//jade-lang.com/'>Jade</a>, <a href = '//stylus-lang.com/'>Stylus</a> mixins and LFA collaboration functionalities.
+          Online version of Freedom House's
+          <a href='//freedom-house.lfwd.io/'>Fighting Public Procurement Criminality Report</a> built with
+          <a href='//www.npmjs.com/package/lfa'> Learn Forward Author </a> and custom
+          <a href='//jade-lang.com/'>Jade</a>,
+          <a href='//stylus-lang.com/'>Stylus</a> mixins and LFA collaboration functionalities.
         </li>
         <li>
-          Online version of <a href='//net-children.mediawise.ro/'>Net Children Go Mobile Report</a> built with <a href = '//www.npmjs.com/package/lfa'> Learn Forward Author </a> and custom <a href = '//jade-lang.com/'>Jade</a>, <a href = '//stylus-lang.com/'>Stylus</a> mixins and LFA collaboration functionalities.
+          Online version of
+          <a href='//net-children.mediawise.ro/'>Net Children Go Mobile Report</a> built with
+          <a href='//www.npmjs.com/package/lfa'> Learn Forward Author </a> and custom
+          <a href='//jade-lang.com/'>Jade</a>,
+          <a href='//stylus-lang.com/'>Stylus</a> mixins and LFA collaboration functionalities.
         </li>
         <li>
-          Created and maintained Monica Macovei's <b>open source</b> presidencial elections website with <a href = '//nodejs.org'>NodeJS</a>, <a href = '//backbonejs.org/'>BackboneJS</a>, bundled with <a href = '//browserify.org/'>Browserify</a>, built with <a href = '//gulpjs.com/'>GulpJS</a> having <a href = 'https://www.browsersync.io/'>Brower-Sync</a> for development, tested with <a href = '//mochajs.org'>Mocha</a> covered with <a href = 'https://gotwarlost.github.io/istanbul'>IstanbulJS</a> and deployed on <a href = '//heroku.com'>Heroku</a>.
+          Created and maintained Monica Macovei's
+          <b>open source</b> presidencial elections website with
+          <a href='//nodejs.org'>NodeJS</a>,
+          <a href='//backbonejs.org/'>BackboneJS</a>, bundled with
+          <a href='//browserify.org/'>Browserify</a>, built with
+          <a href='//gulpjs.com/'>GulpJS</a> having
+          <a href='https://www.browsersync.io/'>Brower-Sync</a> for development, tested with
+          <a href='//mochajs.org'>Mocha</a> covered with
+          <a href='https://gotwarlost.github.io/istanbul'>IstanbulJS</a> and deployed on
+          <a href='//heroku.com'>Heroku</a>.
         </li>
         <li>
-          Created the company website with a stack consisting of <a href = '//nodejs.org'>NodeJS</a>, <a href = '//backbonejs.org/'>BackboneJS</a>, bundled with <a href = '//browserify.org/'>Browserify</a>, built with <a href = '//gulpjs.com/'>GulpJS</a> having <a href = 'https://www.browsersync.io/'>Brower-Sync</a> for development and deployed on <a href = '//heroku.com'>Heroku</a>.
+          Created the company website with a stack consisting of
+          <a href='//nodejs.org'>NodeJS</a>,
+          <a href='//backbonejs.org/'>BackboneJS</a>, bundled with
+          <a href='//browserify.org/'>Browserify</a>, built with
+          <a href='//gulpjs.com/'>GulpJS</a> having
+          <a href='https://www.browsersync.io/'>Brower-Sync</a> for development and deployed on
+          <a href='//heroku.com'>Heroku</a>.
         </li>
       </ul>
     </section>
 
 
 
-      <section>
-        <h2 class='section'>
-          Education
-        </h2>
+    <section>
+      <h2 class='section'>
+        Education
+      </h2>
 
-        <div class="columns entry">
-          <div>
-            Bucharest, Romania
-          </div>
+      <div class="columns entry">
+        <div>
+          Bucharest, Romania
+        </div>
 
-          <div>
-            University of Bucharest
-          </div>
+        <div>
+          University of Bucharest
+        </div>
 
-          <div>
-            <!-- Oct 2012 - Present -->
-          </div>
-          <ul>
-            <li>Bachelors Degree in Computer Science.</li>
-          </ul>
-      </section>
+        <div>
+          <!-- Oct 2012 - Present -->
+        </div>
+        <ul>
+          <li>Bachelors Degree in Computer Science.</li>
+        </ul>
+    </section>
 
-      <section>
-        <h2 class='section'>
+    <section>
+      <h2 class='section'>
 
-          Side Projects
-        </h2>
+        Side Projects
+      </h2>
       </div>
       <ul>
-        <li>A Alexa trivia like game <a href='//github.com/andreiconstantinescu/world-capitals'>World Capitals</a> in which you should tell the capital city of a given set of countries.</li>
-        <li>Codeveloped a <a href ='devpost.com/software/meteor-hackathon'>Spotify clone</a> during the Meteor Hackathon in 2015 with a stack consisting of <b>ES6</b>, <a href = '//meteor.com'>Meteor</a>, <a href = '//reactjs.com'>react.js</a>, <a href = '//webpack.github.io'>webpack</a>, es6, <a href = '//babel.io'>Babel</a>
-        <li>The frontend of a <b>Movie Recommendation System</b> on top of <a href = '//nodejs.org'>NodeJS</a>, <a href = '//angularjs.org'>AngularJS</a>, <a href = '//redis.io'>Redis</a>, <a href = '//bower.io'>Bower</a>, <a href = '//stylus-lang.com/'>Stylus</a> and deployed to my server through custom <b>git hooks</b> <span style = 'vertical-align: middle'>😅</span>.</li>
-        <li>Fully developed a native <b>iOS App</b> with <b>Objective-C</b> incorporating different services like <a href = '//parse.com'>Parse</a>, authentication with Twitter's <a href = '//get.digits.com'>Digits</a> and <a href = '//developers.google.com/maps'>Google Maps API</a> from which you could find friends that are nearby and set a rally point.</li>
-        <li>A <b>Twitter Clone</b> built with <a href = '//rubyonrails.org/'>Ruby On Rails</a> while I was learning the basics of <b>Git</b>, <b>TDD</b> and <b>Agile Development</b>.
+        <li>A Alexa trivia like game
+          <a href='//github.com/andreiconstantinescu/world-capitals'>World Capitals</a> in which you should tell the capital city of a given set of countries.</li>
+        <li>Codeveloped a
+          <a href='devpost.com/software/meteor-hackathon'>Spotify clone</a> during the Meteor Hackathon in 2015 with a stack consisting of
+          <b>ES6</b>,
+          <a href='//meteor.com'>Meteor</a>,
+          <a href='//reactjs.com'>react.js</a>,
+          <a href='//webpack.github.io'>webpack</a>, es6,
+          <a href='//babel.io'>Babel</a>
+          <li>The frontend of a
+            <b>Movie Recommendation System</b> on top of
+            <a href='//nodejs.org'>NodeJS</a>,
+            <a href='//angularjs.org'>AngularJS</a>,
+            <a href='//redis.io'>Redis</a>,
+            <a href='//bower.io'>Bower</a>,
+            <a href='//stylus-lang.com/'>Stylus</a> and deployed to my server through custom
+            <b>git hooks</b>
+            <span style='vertical-align: middle'>😅</span>.</li>
+          <li>Fully developed a native
+            <b>iOS App</b> with
+            <b>Objective-C</b> incorporating different services like
+            <a href='//parse.com'>Parse</a>, authentication with Twitter's
+            <a href='//get.digits.com'>Digits</a> and
+            <a href='//developers.google.com/maps'>Google Maps API</a> from which you could find friends that are nearby and set a rally point.</li>
+          <li>A
+            <b>Twitter Clone</b> built with
+            <a href='//rubyonrails.org/'>Ruby On Rails</a> while I was learning the basics of
+            <b>Git</b>,
+            <b>TDD</b> and
+            <b>Agile Development</b>.
       </ul>
 
     </section>
@@ -186,22 +315,25 @@
       <ul>
 
 
-      <li>
-        <b>TOEFL iBT:</b>
-        <a href='pdf/TOEFL2012.pdf'>
-          Score 85/120
-        </a>.
-      </li>
-      <li><b>Attended local hackathons: </b>FirefoxOS 2013, IBM Challenge 2014, Innovation Labs 2015.</li>
-      <li>
-        <b>
-          Prizes:
-        </b>
-              Omnifee:<a href="//imsmart.ro">ImSmart</a><span>2014 - 1st prize</span>, Hackathon:
-            <a href="//ibm.ro">IBM Challenge</a>
-            <span>2014 - 3rd prize</span>
-      </li>
-    </ul>
+        <li>
+          <b>TOEFL iBT:</b>
+          <a href='pdf/TOEFL2012.pdf'>
+            Score 85/120
+          </a>.
+        </li>
+        <li>
+          <b>Attended local hackathons: </b>FirefoxOS 2013, IBM Challenge 2014, Innovation Labs 2015.</li>
+        <li>
+          <b>
+            Prizes:
+          </b>
+          Omnifee:
+          <a href="//imsmart.ro">ImSmart</a>
+          <span>2014 - 1st prize</span>, Hackathon:
+          <a href="//ibm.ro">IBM Challenge</a>
+          <span>2014 - 3rd prize</span>
+        </li>
+      </ul>
     </section>
 
     <section>
@@ -209,63 +341,69 @@
         Languages and Technologies
       </h2>
       <ul>
-        <li><b>Languages, Frameworks and Libraries:</b></li>
+        <li>
+          <b>Languages, Frameworks and Libraries:</b>
+        </li>
         <ul>
           <li>Advanced knowledge of JavaScript, HTML, CSS, Jade, Stylus, React, Redux, Vuejs, Vuex.</li>
           <li>Good knowledge of jQuery, Backbone, Underscore/Lodash, Angular, Polymer</li>
           <li>Working knowlegde of Ruby, C, C++, Java.</li>
         </ul>
       </ul>
-  </section>
+    </section>
 
-  <section>
-    <h2 class='section'>
-      Hobbies and Interests
-    </h2>
+    <section>
+      <h2 class='section'>
+        Hobbies and Interests
+      </h2>
 
-    <div class="content experience">
+      <div class="content experience">
+        <p>
+          I try to keep up with the latest technology trends by lurking
+          <a href="//news.ycombinator.com/" , target="_blank">
+            Hacker News
+          </a>
+          ,
+          <a href="//sidebar.io" , target="_blank">
+            Sidebar.io
+          </a>
+          and
+          <a href="//producthunt.com" , target="_blank">
+            Product Hunt
+          </a>
+          and by reading different books on
+          <a href="//gitbook.io" , target="_blank">
+            Gitbook.io
+          </a>
+          . I also attend local technology conferences and help people with their programming projects. In my free time I also add
+          more features my RaspberryPi home media center.
+        </p>
+      </div>
+    </section>
+    <div class="muted hide-print">
       <p>
-        I try to keep up with the latest technology trends by lurking
-        <a href="//news.ycombinator.com/", target="_blank">
-          Hacker News
+        Last update:
+        <span class="date">
+          08 July 2017.
+        </span>
+        <a href="//github.com/andreiconstantinescu/cv">
+          Source code
         </a>
-        ,
-        <a href="//sidebar.io", target="_blank">
-          Sidebar.io
-        </a>
-        and
-        <a href="//producthunt.com", target="_blank">
-          Product Hunt
-        </a>
-        and by reading different books on
-        <a href="//gitbook.io", target="_blank">
-          Gitbook.io
-        </a>
-        . I also attend local technology conferences and help people with their programming projects. In my free time I also add more features my RaspberryPi home media center.
+        for this résumé.
       </p>
     </div>
-  </section>
-  <div class="muted hide-print">
-    <p>
-      Last update:
-      <span class="date">
-        08 July 2017.
-      </span>
-      <a href="//github.com/andreiconstantinescu/cv">
-        Source code
-      </a>
-      for this résumé.
-    </p>
-  </div>
-</article>
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  </article>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-62844665-1', 'auto');
     ga('send', 'pageview');
   </script>
 </body>
+
 </html>
